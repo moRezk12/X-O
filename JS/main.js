@@ -63,6 +63,7 @@ function winner()
           squares[4] != '' && squares[5] != '' && squares[6] != '' && 
           squares[7] != '' && squares[8] != '' && squares[9] != ''   )
     {
+
         title.innerHTML = 'wating'
         setInterval(function(){title.innerHTML += '.'}, 1000); 
         setTimeout(function(){location.reload()}, 4000);
